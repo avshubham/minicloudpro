@@ -5,8 +5,8 @@ from werkzeug.utils import secure_filename
 from trp import Document
 from collections import OrderedDict
 
-ACCESS_KEY_ID=<AKIA4VRC4PXZEGLDCCXA>
-ACCESS_SECRET_KEY=<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>
+ACCESS_KEY_ID=AKIA4VRC4PXZEGLDCCXA
+ACCESS_SECRET_KEY=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
 
 s3 = boto3.client('s3',
                     aws_access_key_id=ACCESS_KEY_ID,
